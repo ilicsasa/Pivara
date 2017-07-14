@@ -12,5 +12,9 @@ namespace Pvara.Inerface
         IQueryable<Pivara> GetAll();
         Pivara GetById(int id);
         
+        void Create(Pivara pivara);
+        void Edit(Pivara pivara);
+        void Delete(Pivara pivara);
+        
     }
 }
